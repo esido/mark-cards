@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.section {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* -------------MAIN BLOCKS----------------------------- */
+
+.block {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.header-block {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-block {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+.block-title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* ------------------CSS FOR EACH BLOCK------------------- */
+
+.travel-block {
+  border: 1px solid #3260cd;
+}
+
+.travel-header {
+  color: #3260cd;
+  border: 1px solid #3260cd;
+}
+
+.travel-title {
+  color: #3260cd;
+}
+
+.transport-block {
+  border: 1px solid orangered;
+}
+
+.transport-header {
+  border: 1px solid orangered;
+  color: orangered;
+}
+
+.transport-title {
+  color: orangered;
+}
+
+.hobby-block {
+  border: 1px solid red;
+}
+.hobby-header {
+  border: 1px solid red;
+  color: red;
+}
+
+.hobby-title {
+  color: red;
+}
